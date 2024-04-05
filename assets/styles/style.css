@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+
+/*.flex {
+    display: flex;
+    gap: 10px;
+}*/
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    border: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    position: sticky;
+}
+
+nav>ol {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.orange {
+    color: orange;
+}
+
+.logo>img {
+    height: 60px;
+    width: 60px;
+}
+
+.pl100 {
+    margin-left: 100px;
+}
+
+.hero {
+    background-image: url("./../images/bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color: white;
+}
+
+.hero p {
+    color: white;
+    max-width: 500px;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bout {
+    border-radius: 15px;
+    padding: 12px;
+    font-size: x-large;
+}
+.pl100 {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.s2 p {
+    max-width: 500px ;
+    margin-left: 600px;
+    margin-right: 200px;
+}
+.flex {
+    display: flex;
+    justify-content:center;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+}
+.flex>p{
+
+    width: 500px;
+}
+.flex1 {
+    display: flex;
+    justify-content: space-around;
+}
